@@ -4,6 +4,7 @@ $bright-blue: hsl(245, 75%, 52%);
 $very-pale-blue: hsl(225, 100%, 98%);
 $desaturated-blue: hsl(224, 23%, 55%);
 $dark-blue: hsl(223, 47%, 23%);
+$shadow-btn-primary: hsla(245, 75%, 52%, 0.2);
 
 // * Global Styling
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
@@ -23,7 +24,119 @@ p {
   font-size: 1rem;
 }
 
+// * Main Styling
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $pale-blue;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+// * Card Styling
+.card {
+  max-width: 330px;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+
+  &__img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+  }
+
+  &__textbox {
+    padding: 24px;
+  }
+
+  &__title {
+    letter-spacing: 0.1px;
+    font-size: 22px;
+    font-weight: 900;
+    color: $dark-blue;
+  }
+
+  &__description {
+    font-size: 15px;
+    letter-spacing: 0.08px;
+    line-height: 25px;
+    margin-block: 20px;
+    padding-inline: 15px;
+    color: $desaturated-blue;
+  }
+
+  // * Price Box Styling
+  &__price {
+    display: flex;
+    margin-block: 23px;
+    background-color: $very-pale-blue;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    column-gap: 20px;
+  }
+
+  // * Button Styling
+  &__btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+// * Price Text Styling
+.pricetext {
+  color: $dark-blue;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: left;
+
+  &__nominal {
+    font-weight: 500;
+    color: $desaturated-blue;
+  }
+
+  &__change {
+    font-size: 14px;
+    font-weight: 700;
+    color: $bright-blue;
+  }
+}
+
+// * Primary & Secondary Button Styling
+.btn {
+  &-primary {
+    background-color: $bright-blue;
+    color: white;
+    box-shadow: 0px 8px 12px 5px $shadow-btn-primary;
+  }
+
+  &-secondary {
+    padding: 0;
+    width: fit-content;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    color: $desaturated-blue;
+  }
+}
+
+// * Footer Styling
 .attribution {
+  display: none;
   font-size: 11px;
   text-align: center;
   a {

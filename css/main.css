@@ -11,7 +11,126 @@ p {
   font-size: 1rem;
 }
 
+.main {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e0e8ff;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card {
+  max-width: 330px;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.card__img {
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
+.card__textbox {
+  padding: 24px;
+}
+
+.card__title {
+  letter-spacing: 0.1px;
+  font-size: 22px;
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.card__description {
+  font-size: 15px;
+  letter-spacing: 0.08px;
+  line-height: 25px;
+  margin-block: 20px;
+  padding-inline: 15px;
+  color: #7280a7;
+}
+
+.card__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-block: 23px;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.card__btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  font-weight: 900;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pricetext {
+  color: #1f2f56;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.pricetext__nominal {
+  font-weight: 500;
+  color: #7280a7;
+}
+
+.pricetext__change {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3829e0;
+}
+
+.btn-primary {
+  background-color: #3829e0;
+  color: white;
+  -webkit-box-shadow: 0px 8px 12px 5px rgba(56, 41, 224, 0.2);
+          box-shadow: 0px 8px 12px 5px rgba(56, 41, 224, 0.2);
+}
+
+.btn-secondary {
+  padding: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 22px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  color: #7280a7;
+}
+
 .attribution {
+  display: none;
   font-size: 11px;
   text-align: center;
 }
