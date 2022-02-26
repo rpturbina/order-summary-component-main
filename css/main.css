@@ -162,7 +162,7 @@ p {
   font-size: 12px;
   text-align: center;
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   left: 0;
   right: 0;
 }
@@ -199,9 +199,6 @@ p {
   }
   .pricetext__change {
     font-size: 15px;
-  }
-  .attribution {
-    bottom: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
