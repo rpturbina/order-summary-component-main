@@ -33,6 +33,11 @@ p {
   background-color: white;
   text-align: center;
   border-radius: 20px;
+  margin: 24px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .card__img {
@@ -75,8 +80,9 @@ p {
       -ms-flex-align: center;
           align-items: center;
   padding: 16px;
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card__btn {
@@ -97,9 +103,12 @@ p {
   font-weight: 900;
   line-height: 1.5;
   text-align: left;
+  margin-left: 0px;
+  margin-right: auto;
 }
 
 .pricetext__nominal {
+  display: block;
   font-weight: 500;
   color: #7280a7;
 }
@@ -122,8 +131,8 @@ p {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: auto;
-  margin-top: 22px;
+  margin: 0 auto;
+  margin-top: 25px;
   margin-bottom: 5px;
   background-color: transparent;
   color: #7280a7;
@@ -137,5 +146,35 @@ p {
 
 .attribution a {
   color: #3e52a3;
+}
+
+@media only screen and (min-width: 1440px) {
+  .main {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+  .card {
+    max-width: 450px;
+  }
+  .card__title {
+    font-size: 28px;
+  }
+  .card__description {
+    font-size: 16px;
+  }
+  .card__textbox {
+    padding: 48px;
+  }
+  .card__price {
+    padding: 25px;
+  }
+  .pricetext {
+    font-size: 16px;
+  }
+  .pricetext__nominal {
+    font-size: 16px;
+  }
+  .pricetext__change {
+    font-size: 15px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
