@@ -7,6 +7,10 @@
   font-family: "Red Hat Display", sans-serif;
 }
 
+body {
+  position: relative;
+}
+
 p {
   font-size: 1rem;
 }
