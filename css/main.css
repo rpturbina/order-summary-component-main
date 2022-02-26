@@ -12,6 +12,7 @@ p {
 }
 
 .main {
+  position: relative;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,7 +27,6 @@ p {
   background-image: url("../images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
 }
 
 .card {
@@ -34,7 +34,7 @@ p {
   background-color: white;
   text-align: center;
   border-radius: 20px;
-  margin: 24px auto;
+  margin: auto;
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   -webkit-transition: all 0.5s ease;
@@ -159,12 +159,13 @@ p {
 }
 
 .attribution {
+  position: absolute;
   font-size: 12px;
   text-align: center;
-  position: absolute;
   left: 0;
   right: 0;
-  bottom: 10px;
+  bottom: 0;
+  padding: 10px;
 }
 
 .attribution a {
