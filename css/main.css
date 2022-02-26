@@ -117,6 +117,13 @@ p {
   font-size: 14px;
   font-weight: 700;
   color: #3829e0;
+  -webkit-transition: opacity 0.3 ease;
+  transition: opacity 0.3 ease;
+}
+
+.pricetext__change:hover {
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 .btn-primary {
@@ -124,6 +131,12 @@ p {
   color: white;
   -webkit-box-shadow: 0px 8px 12px 5px rgba(56, 41, 224, 0.2);
           box-shadow: 0px 8px 12px 5px rgba(56, 41, 224, 0.2);
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.7;
 }
 
 .btn-secondary {
@@ -136,6 +149,12 @@ p {
   margin-bottom: 5px;
   background-color: transparent;
   color: #7280a7;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  color: #1f2f56;
 }
 
 .attribution {

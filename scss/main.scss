@@ -119,6 +119,12 @@ p {
     font-size: 14px;
     font-weight: 700;
     color: $bright-blue;
+    transition: opacity 0.3 ease;
+
+    &:hover {
+      text-decoration: none;
+      opacity: 0.7;
+    }
   }
 }
 
@@ -128,6 +134,11 @@ p {
     background-color: $bright-blue;
     color: white;
     box-shadow: 0px 8px 12px 5px $shadow-btn-primary;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 
   &-secondary {
@@ -138,6 +149,11 @@ p {
     margin-bottom: 5px;
     background-color: transparent;
     color: $desaturated-blue;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $dark-blue;
+    }
   }
 }
 
