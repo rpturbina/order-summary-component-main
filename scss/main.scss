@@ -26,7 +26,6 @@ p {
 
 // * Main Styling
 .main {
-  position: relative;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -43,7 +42,7 @@ p {
   background-color: white;
   text-align: center;
   border-radius: 20px;
-  margin: auto;
+  margin: 24px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: all 0.5s ease;
 
