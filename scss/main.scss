@@ -48,7 +48,7 @@ p {
   text-align: center;
   border-radius: 20px;
   margin: 24px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   transition: all 0.5s ease;
 
   &__img {
@@ -124,7 +124,7 @@ p {
     font-size: 14px;
     font-weight: 700;
     color: $bright-blue;
-    transition: opacity 0.3 ease;
+    transition: opacity 0.3s ease;
 
     &:hover {
       text-decoration: none;
@@ -148,6 +148,8 @@ p {
 
   &-secondary {
     padding: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     margin: 0 auto;
     margin-top: 25px;

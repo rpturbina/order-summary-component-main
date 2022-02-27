@@ -39,8 +39,8 @@ p {
   text-align: center;
   border-radius: 20px;
   margin: 24px;
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+          box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -121,8 +121,8 @@ p {
   font-size: 14px;
   font-weight: 700;
   color: #3829e0;
-  -webkit-transition: opacity 0.3 ease;
-  transition: opacity 0.3 ease;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .pricetext__change:hover {
