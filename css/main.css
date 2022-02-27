@@ -72,6 +72,7 @@ p {
 }
 
 .card__price {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,7 +181,7 @@ p {
     background-image: url("../images/pattern-background-desktop.svg");
   }
   .card {
-    min-width: 450px;
+    max-width: 450px;
   }
   .card__title {
     font-size: 28px;

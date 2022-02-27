@@ -79,6 +79,7 @@ p {
 
   // * Price Box Styling
   &__price {
+    width: 100%;
     display: flex;
     margin-block: 23px;
     background-color: $very-pale-blue;
@@ -182,7 +183,7 @@ p {
     background-image: url("../images/pattern-background-desktop.svg");
   }
   .card {
-    min-width: 450px;
+    max-width: 450px;
 
     &__title {
       font-size: 28px;
