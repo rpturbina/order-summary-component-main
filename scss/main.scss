@@ -72,8 +72,10 @@ p {
     font-size: 15px;
     letter-spacing: 0.08px;
     line-height: 25px;
-    margin-block: 20px;
-    padding-inline: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: $desaturated-blue;
   }
 
@@ -81,13 +83,14 @@ p {
   &__price {
     width: 100%;
     display: flex;
-    margin-block: 23px;
+    margin-top: 23px;
+    margin-bottom: 23px;
     background-color: $very-pale-blue;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     padding: 16px;
-    gap: 20px;
+    column-gap: 20px;
   }
 
   // * Button Styling
@@ -111,7 +114,7 @@ p {
   font-weight: 900;
   line-height: 1.5;
   text-align: left;
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: auto;
 
   &__nominal {
@@ -138,7 +141,7 @@ p {
   &-primary {
     background-color: $bright-blue;
     color: white;
-    box-shadow: 0px 8px 12px 5px $shadow-btn-primary;
+    box-shadow: 0 8px 12px 5px $shadow-btn-primary;
     transition: opacity 0.3s ease;
 
     &:hover {
