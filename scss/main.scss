@@ -182,7 +182,7 @@ p {
     background-image: url("../images/pattern-background-desktop.svg");
   }
   .card {
-    max-width: 450px;
+    min-width: 450px;
 
     &__title {
       font-size: 28px;
