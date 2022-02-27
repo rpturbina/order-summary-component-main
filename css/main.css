@@ -86,8 +86,6 @@ p {
           align-items: center;
   padding: 16px;
   gap: 20px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .card__btn {
