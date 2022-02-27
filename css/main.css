@@ -33,6 +33,7 @@ p {
 }
 
 .card {
+  min-width: 320px;
   max-width: 330px;
   background-color: white;
   text-align: center;
@@ -66,7 +67,7 @@ p {
   letter-spacing: 0.08px;
   line-height: 25px;
   margin-block: 20px;
-  padding-inline: 15px;
+  padding-inline: 10px;
   color: #7280a7;
 }
 
